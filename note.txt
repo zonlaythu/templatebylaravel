@@ -14,4 +14,16 @@ Git commands
 -Controller
 -Using template
 
--
+-SSH Remote
+-------
+-ssh -p 7822 username@domain.me
+-enter password
+-ls(view all folder)
+-cd sub.domain.me
+-git clone url
+-cd folder
+-cp .env.example .env
+-composer install
+-php artisan key:generate
+
+-git pull (if updated from remote)
