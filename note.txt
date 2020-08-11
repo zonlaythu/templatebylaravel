@@ -1,0 +1,6 @@
+Git commands
+-----
+-git status
+-git add .
+-git cimmit -m "message"
+-git push -u origin master
