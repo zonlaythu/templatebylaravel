@@ -11,7 +11,7 @@ class PageController extends Controller
     }
 
      public function aboutfun($value=''){
-    	return view('aboutpage');
+    	return view('about');
     	
     }
 

@@ -18,9 +18,9 @@ use Illuminate\Support\Facades\Route;
 //     // return 'Hello laravel';
 // })->name('home');
 
-Route::get('about','PageController@homefun')->name('aboutname');
+Route::get('about','PageController@aboutfun')->name('aboutname');
 
-Route::get('/', 'PageController@aboutfun')->name('home');
+Route::get('/', 'PageController@homefun')->name('home');
 
 Route::get('contact','PageController@contactfun')->name('contact');
 Route::get('post','PageController@postfun')->name('post');
